@@ -148,7 +148,7 @@
 
         // 不要这样
         int apples,appleTrees;
-        swap(a+b);
+        swap(a,b);
         ```
 
     
