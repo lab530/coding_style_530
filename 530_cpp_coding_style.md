@@ -108,8 +108,13 @@ int* p3 = new int;
 通常而言单目运算符应与参数之间不要有空格
 
 ``` c++
+// 请这样
 *pointer = 1;
 pointer++;
+
+// 不要这样
+* poniter = 1;
+pointer ++;
 ```
 - 指针
 ``` c++
